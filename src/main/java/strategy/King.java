@@ -1,6 +1,5 @@
 package strategy;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class King extends Character{

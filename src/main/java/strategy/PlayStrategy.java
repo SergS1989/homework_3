@@ -2,10 +2,10 @@ package strategy;
 
 public class PlayStrategy {
     public static void main(String[] args) {
-        Character queen = new King();
-        queen.setWeapon("Меч", new SwordBehavior());
-        queen.setWeapon("Нож", new KnifeBehavior());
-        queen.setWeapon("пистолет", new GunBehavior());
-        queen.fight();
+        Character king = new King();
+        king.setWeapon("Меч", new SwordBehavior());
+        king.setWeapon("Нож", new KnifeBehavior());
+        king.setWeapon("пистолет", new GunBehavior());
+        king.fight();
     }
 }
